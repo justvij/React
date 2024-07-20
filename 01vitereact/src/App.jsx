@@ -1,10 +1,11 @@
-
+import Chai from "./chai"
 
 function App() {
-
+  const userName = 'Vijay Singh'
   return (
     <div>
-      <h1>Created a React-App project with using ViTe | Vijay Singh </h1>
+      <h1>Created a React-App project with using ViTe | {userName} </h1>
+      <Chai />
     </div>
   )
 }
